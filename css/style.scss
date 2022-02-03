@@ -1,0 +1,26 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import "normalize";
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+.wrapper {
+    width: 1240px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin: 60px 0;
+    padding: 25px 45px;
+    border-radius: 36px;
+    box-shadow: 0px 0px 30px #b1ddef;
+}
+
+.header__logo-href {
+    &:hover {
+        animation: swing 0.6s ease;
+        animation-iteration-count: 1;
+    }
+}
